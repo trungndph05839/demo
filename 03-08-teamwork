@@ -1,0 +1,15 @@
+làm việc nhóm trên git
+    + có 1 người trong team tạo ra 1 repository
+        VD: https://github.com/tuannda94/demo-git-web204/tree/develop
+
+    + các thành viên khác thực hiện công việc FORK
+        click nút FORK ở góc phải repository
+    + Clone code repository đó về máy tính
+        git clone đường_dẫn_khi_mở_nút_clone tên_thư_mục_clone_về
+    +Sang nhánh làm việc chính(develop) và push code mới nhất về 
+        git pull origin develop
+    +Bắt đầu làm việc như bình thường:
+        git checkout -b 03_08_HO_TEN
+        "git stasus" => có file thay đổi màu đỏ => "git add." =>có file chờ comit màu xanh
+        git commit -m "HO TEN - COMIT AFTER CLONE"
+        "git push origin HEAD" hoặc tên nhánh
